@@ -200,6 +200,7 @@ fieldset[disabled] .btn-xl.active {
 @media (min-width: 768px) {
   .navbar-custom {
     background-color: transparent;
+    color: #ffef00";
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -235,7 +236,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   text-align: center;
-  color: white;
+
 }
 header .intro-text {
   padding-top: 100px;
