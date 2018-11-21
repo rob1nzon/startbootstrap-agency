@@ -14,6 +14,7 @@ body {
   color: #fed136;
 }
 p {
+  text-indent: 25px; /* Отступ первой строки в пикселах */
   font-size: 14px;
   line-height: 1.75;
 }
