@@ -42,6 +42,17 @@
    color: #FFFFFF;
    font-weight: bold;
 }
+    .shadow_head
+    {
+        div {
+  -webkit-text-stroke: 1.1px #000000; /* свойство text-stroke наследуется, применяется ко всем элементам, изменяет текст */ 
+
+  /* или */ 
+
+  -webkit-text-stroke-width: 1.1px;
+  -webkit-text-stroke-color: #000000;
+}
+    }
     </style>
     
 </head>
@@ -92,7 +103,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <h2>Приветствуем Вас на сайте культурно-образовательного центра для взрослых и детей!</h2>
+                <shadow_head>Приветствуем Вас на сайте культурно-образовательного центра для взрослых и детей!</shadow_head>
 <!--                 <div class="intro-heading"></div> -->
                 <a href="#portfolio" class="page-scroll btn btn-xl">Наши занятия</a>
             </div>
